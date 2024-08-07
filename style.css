@@ -54,8 +54,23 @@ button:hover{
     width: 20px;
     border-radius: 50%;
     border: yellow solid 3px;
-    transition: 4sec;
+    transition: 2s;
 }
 .star:hover{
     background-color: #ffffb3;
+}
+.review{
+    background-color:#ffffb3;
+    width: 550px;
+    margin:50px;
+    padding: 20px 10px;
+    border:#ff66b5 solid 6px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 5px white;
+}
+.reviewers{
+    font-family:Dancing Script;
+    border:#ff66b5 dashed 2px;
 }
