@@ -8,8 +8,10 @@
     font-weight: 600;
     color: #ff0080;   
 }
-.box:hover{
-    color: lightgreen;   
+.text{
+    text-align: center;
+    font-family:Dancing Script;
+    color: #ff0080;
 }
 .product-card{
     background-color:#ffffb3;
@@ -30,4 +32,30 @@
     background-color: #ffffb3;
     text-align: center;
     font-weight: bold;
+}
+.button{
+    background-color:#e1eaea;
+    border-radius: 20px;
+    transition: 1s;
+    margin-left: 85px;
+}
+button:hover{
+    background-color: #ff9999;
+}
+.rating{
+    text-align: center;
+    font-weight: bold;
+    color: #ff0080;
+}
+.star{
+    padding: 2px 2px;
+    color: white;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    border: yellow solid 3px;
+    transition: 4sec;
+}
+.star:hover{
+    background-color: #ffffb3;
 }
